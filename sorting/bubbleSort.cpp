@@ -22,7 +22,6 @@
 void bubbleSort(std::vector<int> &arr){
 
   int vecSize = arr.size();
-
   for(int i=vecSize-1;i>=0;i--){
     for(int j=0;j<=i-1;j++){
       if(arr[j]>arr[j+1]){
