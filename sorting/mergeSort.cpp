@@ -25,7 +25,7 @@ void merge(std::vector<int> &arr, int low, int mid, int high){
   while(left<=mid && right<=high){
 
     if(arr[left]<=arr[right]){
-      tem.push_back(arr[left]);
+      temp.push_back(arr[left]);
       left++;
      }else{
        temp.push_back(arr[right]);;
